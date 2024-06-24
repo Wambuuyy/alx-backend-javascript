@@ -1,5 +1,3 @@
-import report from './12-createReportObject';
-
 export default function createIteratorObject(report) {
   const allEmployees = report.allEmployees;
   let employees = [];
