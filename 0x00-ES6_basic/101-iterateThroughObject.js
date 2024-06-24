@@ -1,6 +1,7 @@
-import reportWithIterator from './100-createIteratorObject';
-
 export default function iterateThroughObject(reportWithIterator) {
-  return [...reportWithIterator].join(' | ');
+  const returnString = [];
+  for (const report of reportWithIterator) {
+    returnString.push(report);
+  }
+  return returnString.join(' | ');
 }
-
